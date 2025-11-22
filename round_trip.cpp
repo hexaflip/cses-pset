@@ -52,14 +52,3 @@ int main() {
 
     cout << "No cycle\n";
 }
-
-
-
-void something(){
-    int STRIDE_LEN = 8;
-    for (int offset = 0; offset < STRIDE_LEN; ++offset){
-        for (int stride = 0; stride + offset < 128; stride +=STRIDE_LEN){
-            //count, arr[stride + offset];
-        }
-    }
-}
